@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.upload-label {
+  font-size: 0.9rem;
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+}
+
+video {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.status {
+  margin-top: 0.75rem;
+  font-weight: bold;
+}
+
+.timing {
+  margin-top: 0.25rem;
+  font-family: monospace;
+  color: #444;
+}

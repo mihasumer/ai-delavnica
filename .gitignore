@@ -1,3 +1,10 @@
 .claude/
 .env
 *.local
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.pt
+*_openvino_model/
+*_saved_model/
